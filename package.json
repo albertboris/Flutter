@@ -1,0 +1,33 @@
+{
+  "name": "blog-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "epic-spinners": "^1.1.0",
+    "luxon": "^3.0.1",
+    "moment": "^2.29.4",
+    "vue": "^3.2.37",
+    "vue-flutterwave": "^1.0.0",
+    "vue-pagination-2": "^3.1.0",
+    "vue-router": "^4.1.2",
+    "vuex": "^4.0.2",
+    "vuex-cache": "^3.5.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "vite": "^3.0.1"
+  }
+}
